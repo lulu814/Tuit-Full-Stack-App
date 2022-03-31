@@ -11,3 +11,7 @@ git submodule update --init --recursive
 ### Use a modified clone command to ensure you download everything, including any submodules:
 
 git clone --recursive [git url]
+
+### Update all submodules in the main local git repo:
+
+git submodule update --remote
